@@ -1,0 +1,86 @@
+<!-- 
+    » Wagner Lima | www.wagnerlima.net | @wagnerlimaNET «
+    Professor de desenvolvimento web e design na escola iwtraining, especialista em mecanismos de
+    buscas (SEO) e graduando em Sistemas e Mídias Digitais na Universidade Federal do Ceará (UFC).
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sons dos Animais - Vivito @soboolhardeumautista</title>
+        <meta name="description" content="Site focado no aprendizado do nome de animais em sua língua nativa (português), bem como em inglês e os sons que cada animal faz." />
+        <meta name="keywords" content="sons, animais, nomes, português, inglês, cores, infantil, autistas, aprendizado" />
+        <meta name="author" content="@wagnerlimaNET">
+        <!-- início da chamada do css do bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <!-- fim da chamada do css do bootstrap -->
+        <link href="css/style.css" rel="stylesheet">
+        <script src="js/scripts.js" crossorigin="anonymous"></script>
+        <link href="manifest.json" rel="manifest">
+    </head>
+    <body>
+        <!-- início do topo da página -->
+        <span id="amarelotopo">.</span>
+        <span class="mt-5 mb-5">.</span>
+        <section id="titulo" class="mt-5">
+            <header class="row">
+                <h1 class="col-10 offset-1 text-center mt-5 p-4">Sons dos Animais</h1>
+            </header>
+        </section>
+        <!-- fim do topo da página -->
+
+        <!-- início do form -->
+        <section id="formulario">
+            <form action="enviarcontato.php" class="row" method="post">
+                <input type="text" name="nome" placeholder="Digite o seu Nome" class="rounded-5 col-10 offset-1 mt-4" required>
+                <input type="number" name="idade" placeholder="Sua idade" min="1" max="83" class="rounded-5 col-4 offset-1 mt-3" required>
+                <select id="Estado" name="estado" class="rounded-5 col-5 offset-1 mt-3" required>
+                    <option selected disabled>De onde você é?</option>
+                    <option value="Acre">Acre</option>
+                    <option value="Alagoas">Alagoas</option>
+                    <option value="Amapá">Amapá</option>
+                    <option value="Amazonas">Amazonas</option>
+                    <option value="Bahia">Bahia</option>
+                    <option value="Ceará">Ceará</option>
+                    <option value="Distrito Federal">Distrito Federal</option>
+                    <option value="Espírito Santo">Espírito Santo</option>
+                    <option value="Goiás">Goiás</option>
+                    <option value="Maranhão">Maranhão</option>
+                    <option value="Mato Grosso">Mato Grosso</option>
+                    <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+                    <option value="Minas Gerais">Minas Gerais</option>
+                    <option value="Pará">Pará</option>
+                    <option value="Paraíba">Paraíba</option>
+                    <option value="Paraná">Paraná</option>
+                    <option value="Pernambuco">Pernambuco</option>
+                    <option value="Piauí">Piauí</option>
+                    <option value="Rio de Janeiro">Rio de Janeiro</option>
+                    <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+                    <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                    <option value="Rondônia">Rondônia</option>
+                    <option value="Roraima">Roraima</option>
+                    <option value="Santa Catarina">Santa Catarina</option>
+                    <option value="São Paulo">São Paulo</option>
+                    <option value="Sergipe">Sergipe</option>
+                    <option value="Tocantins">Tocantins</option>
+                </select>
+                <input type="submit" value="Começar" class="rounded-5 verde btnverde col-5 offset-1 mt-3 d-block m-auto">
+            </form>
+        </section>
+        <!-- fim do form -->
+
+        <!-- início da base (rodapé) -->
+        <span id="rosabase">.</span>
+        <section id="rodape">
+            <footer class="row">
+                <img src="imagens/rodape-autismo.png">
+            </footer>
+        </section>
+        <!-- fim da base (rodapé) -->
+
+        <!-- início da chamada do script do bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <!-- fim da chamada do script do bootstrap -->
+    </body>
+</html>
